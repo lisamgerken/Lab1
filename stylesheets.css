@@ -1,0 +1,99 @@
+html {
+	background-color: #f9fafc;
+	font-family: 'open sans', sans-serif;
+	font-size: 14px;
+	font-weight: 800;
+}
+
+.logo {
+	display: inline-block;
+	padding: 10px;
+}
+
+.topcontainer	{
+	width: 100%;
+	flex: auto;
+	padding-bottom: 75px;
+}
+
+.content {
+	border-left: 2px solid #69696a;
+	padding-left: 10px;
+	width: 50%;
+	color: #69696a;
+	margin-left: 14px;
+}
+
+.smallcircle {
+	background-color: rgba(207,130,213,0.6);
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+	position: absolute;
+	z-index: 2;
+	top: 205px;
+	right: 15px;
+}
+
+.mediumcircle {
+	background-color: rgba(247, 193, 162, 0.7);
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	z-index: 3;
+	right: 20px;
+	bottom: 155px;
+}
+
+.largecircle {
+	background-color: rgba(247, 136, 167, 0.6);
+	border-radius: 50%;
+	height: 270px;
+	width: 270px;
+	z-index: 1;
+	position: absolute;
+	right: 80px;
+	top: 180px;
+}
+
+.circlecontainer {
+	margin-left: 75%;
+	width: 200px;
+	height: 200px;
+}
+
+#hireus {
+	padding: 6px 20px 6px 20px;
+	border-radius: 30px;
+	border-color: black;
+	background-color: black;
+	color: #f9fafc;
+}
+
+nav {
+	color: #69696a;
+	float: right;
+	padding: 10px;
+
+}
+
+nav a {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.scroll	{
+	padding: 6px 20px 6px 20px;
+	width: 80px;
+	border-radius: 30px;
+	background-color: black;
+	color: #f9fafc;
+	margin: 0 auto;
+}
+
+h3 {
+	padding: 10px;
+	padding-bottom: 2px;
+	font-size: 20px;
+}
