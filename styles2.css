@@ -1,0 +1,153 @@
+html {
+	background-color: #f9fafc;
+	font-family: 'open sans', sans-serif;
+	font-size: 14px;
+	font-weight: 800;
+}
+
+#hireus {
+	padding: 6px 20px 6px 20px;
+	border-radius: 30px;
+	border-color: black;
+	background-color: black;
+	color: #f9fafc;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+nav {
+	color: #69696a;
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+	margin-bottom: 10px;
+}
+
+.logo	{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+.content {
+	border-left: 2px solid #69696a;
+	padding-left: 12px;
+	color: #69696a;
+	margin-bottom: 40px;
+}
+
+.scroll	{
+	padding: 6px 20px 6px 20px;
+	border-radius: 30px;
+	border-color: black;
+	background-color: black;
+	color: #f9fafc;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.middlecontainer {
+	display: flex;
+	flex-direction: column;
+}
+
+
+@media only screen and (min-width: 768px) {
+	.wrapper { 
+ 		flex-direction: row;
+		justify-content: space-between;
+		margin-top: -10px;
+		padding-bottom: 75px;
+
+	}
+	
+	a {
+		margin-top: 20px;
+		margin-left: 10px;
+		margin-right: 20px;
+	}
+	
+	nav {
+		flex-direction: row;
+	 }
+	
+
+
+	#hireus {
+		padding: 6px 20px 6px 20px;
+		width: 120px;
+		border-radius: 30px;
+		background-color: black;
+		color: #f9fafc;
+	}
+	
+	.smallcircle {
+		background-color: rgba(207,130,213,0.6);
+		border-radius: 50%;
+		height: 120px;
+		width: 120px;
+		position: absolute;
+		z-index: 2;
+		top: 198px;
+		right: 15px;
+	}
+
+	.mediumcircle {
+		background-color: rgba(247, 193, 162, 0.7);
+		border-radius: 50%;
+		height: 150px;
+		width: 150px;
+		position: absolute;
+		z-index: 3;
+		right: 20px;
+		bottom: 165px;
+	}
+
+	.largecircle {
+		background-color: rgba(247, 136, 167, 0.6);
+		border-radius: 50%;
+		height: 270px;
+		width: 270px;
+		z-index: 1;
+		position: absolute;
+		right: 80px;
+		top: 180px;
+	}
+
+	.circlecontainer {
+		width: 1000px;
+		margin-bottom: 10%;
+	}
+	
+	.scroll	{
+		padding: 6px 20px 6px 20px;
+		width: 120px;
+		border-radius: 30px;
+		background-color: black;
+		color: #f9fafc;
+		margin: 0 auto;
+		
+	}
+	
+	.content {
+		width: 1200px;
+	}
+	
+	.middlecontainer {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 20%;
+	}
+}
